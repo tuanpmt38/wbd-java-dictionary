@@ -26,7 +26,7 @@ public class TranslateServlet extends HttpServlet {
         String result = listdictionnary.get(input);
         printWriter.println("<html>");
         if(input == null){
-            printWriter.println("ko thấy từ cần tim ");
+            printWriter.println("Not found ! ");
         }else{
             printWriter.println("search: "+input );
             printWriter.println("result: "+result );
